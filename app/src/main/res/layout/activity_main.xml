@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="883dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_main1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF000000"
+                android:onClick="btnClk"
+                android:text="옷 선택"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="btnClk"
+                android:text="옷 반입"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="btnClk"
+                android:text="옷 정보"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#0D000000"
+                android:onClick="btnClk"
+                android:text="일자별 조회"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="#0D000000"
+                android:onClick="btnClk"
+                android:text="새 옷 저장"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_main11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnClk"
+                android:text="테마별 옷 선택"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="btnClk"
+                android:text="오토 코디"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="btnClk"
+                android:text="옷장 내 공기 정보"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="btnClk"
+                android:text="스마트조명"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_main15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:onClick="btnClk"
+                android:text="인공지능 스피커"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_main16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="417dp"
+            android:onClick="btnClk"
+            android:text="내 정보"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </LinearLayout>
+
+</LinearLayout>
